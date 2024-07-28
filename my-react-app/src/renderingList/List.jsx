@@ -11,16 +11,20 @@ function List() {
         {"id": 5, "name": "pineapple", "calories": 37},
     ]
 
+    // Sorting
     // fruitsObj.sort((a, b) => a.name.localeCompare(b.name));  // Ascending Order Alphabetical Order
     // fruitsObj.sort((a, b) => b.name.localeCompare(a.name));  // Descending Order Alphabetical Order
     // fruitsObj.sort((a, b) => a.calories - b.calories);  // Ascending Order Numerical
     // fruitsObj.sort((a, b) => b.calories - a.calories);  // Desending Order Numerical
 
+    // Filtering
+    // const lowCalFruits = fruitsObj.filter(fruit => fruit.calories <= 100);
+    const highCalFruits = fruitsObj.filter(fruit => fruit.calories > 100);
     // Working wit the list
     // const listItem = fruits.map(fruit => <li>{fruit}</li>)
 
     // Working with the list of objects
-    const listFruitObj = fruitsObj.map(fruit =>
+    const listFruitObj = highCalFruits.map(fruit =>
         <li key={fruit.id}>{fruit.name}: &nbsp;{fruit.calories}</li>)
 
 
