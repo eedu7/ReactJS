@@ -1,6 +1,6 @@
 function List() {
     // List of items
-    const fruits = ["apple", "banana", "pine-apple", "orange"];
+    // const fruits = ["apple", "banana", "pine-apple", "orange"];
 
     // List of objects
     const fruitsObj = [
