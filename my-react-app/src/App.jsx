@@ -1,8 +1,14 @@
 import Card from "./card-component/card.jsx";
+import Button from "./button-component/button.jsx";
 
 function App() {
     return(
-        <Card />
+        <>
+        {/*  Card Component  */}
+            <Card />
+        {/* Button Component */}
+            <Button />
+        </>
     );
 }
 
