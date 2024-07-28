@@ -7,10 +7,10 @@ import styles from "./button.module.css"
 function Button() {
 
     const inline_styles = {
-        "background-color": "hsl(200, 100%, 40%)",
+        "backgroundColor": "hsl(200, 100%, 40%)",
         "color": "white",
         "padding": "10px 20px",
-        "border-radius": "5px",
+        "borderRadius": "5px",
         "border": "none",
         "cursor": "pointer",
     }
