@@ -6,7 +6,8 @@
 // import Button from "./react-click-events/Button.jsx"
 
 // import ProfilePicture from "./react-click-events/ProfilePicture.jsx";
-import MyComponent from "./react-hook/useStateReactHook.jsx";
+// import MyComponent from "./react-hook/useStateReactHook.jsx";
+import MyComponent from "./onChange-event-handler/MyComponent.jsx";
 
 function App() {
 
@@ -50,6 +51,9 @@ function App() {
         {/*<ProfilePicture/>*/}
 
         {/* React useState*/}
+        {/*<MyComponent/>*/}
+
+        {/* onChange Event Handler */}
         <MyComponent/>
     </>)
 }
