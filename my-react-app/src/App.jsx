@@ -5,7 +5,8 @@
 // import List from "./renderingList/List.jsx";
 // import Button from "./react-click-events/Button.jsx"
 
-import ProfilePicture from "./react-click-events/ProfilePicture.jsx";
+// import ProfilePicture from "./react-click-events/ProfilePicture.jsx";
+import MyComponent from "./react-hook/useStateReactHook.jsx";
 
 function App() {
 
@@ -46,7 +47,10 @@ function App() {
 
         {/* Click Event*/}
         {/*<Button/>*/}
-        <ProfilePicture/>
+        {/*<ProfilePicture/>*/}
+
+        {/* React useState*/}
+        <MyComponent/>
     </>)
 }
 

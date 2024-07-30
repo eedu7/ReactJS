@@ -4,7 +4,7 @@ function ProfilePicture() {
     const handleClick = (e) => e.target.style.display = "none";
 
     return (
-        <img alt="Profile Image" onClick={(e) => handleClick(e)} src={image_url}/>
+        <img alt="Profile Image" height="480" width="480" onClick={(e) => handleClick(e)} src={image_url}/>
     )
 }
 
