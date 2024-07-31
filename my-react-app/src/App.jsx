@@ -7,7 +7,14 @@
 
 // import ProfilePicture from "./react-click-events/ProfilePicture.jsx";
 // import MyComponent from "./react-hook/useStateReactHook.jsx";
-import MyComponent from "./onChange-event-handler/MyComponent.jsx";
+// import MyComponent from "./onChange-event-handler/MyComponent.jsx";
+
+// import ColorPicker from "./colorpicker/colorPicker.jsx";
+
+
+// import MyComponent from "./updater-function/myComponent.jsx";
+// import MyComponent from "./update-object-state/myComponent.jsx";
+import MyComponent from "./update-arrays/myComponent.jsx";
 
 function App() {
 
@@ -54,6 +61,18 @@ function App() {
         {/*<MyComponent/>*/}
 
         {/* onChange Event Handler */}
+        {/*<MyComponent/>*/}
+
+        {/* ColorPicker */}
+        {/*<ColorPicker/>*/}
+
+        {/* Updater Function */}
+        {/*<MyComponent/>*/}
+
+        {/* Updater Function Objects */}
+        {/*<MyComponent/>*/}
+        
+        {/* Updating the arrays*/}
         <MyComponent/>
     </>)
 }
