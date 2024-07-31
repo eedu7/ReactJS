@@ -16,7 +16,8 @@
 // import MyComponent from "./update-object-state/myComponent.jsx";
 // import MyComponent from "./update-arrays/myComponent.jsx";
 
-import MyComponent from "./arrays-object-state/myComponent.jsx";
+// import MyComponent from "./arrays-object-state/myComponent.jsx";
+import MyComponent from "./useEffect-react-hook/MyComponent.jsx";
 
 function App() {
 
@@ -78,6 +79,9 @@ function App() {
         {/*<MyComponent/>*/}
 
         {/* Updating the arrays of objects*/}
+        {/*<MyComponent/>*/}
+
+        {/* useEffect Hooks*/}
         <MyComponent/>
     </>)
 }
