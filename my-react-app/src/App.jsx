@@ -14,7 +14,9 @@
 
 // import MyComponent from "./updater-function/myComponent.jsx";
 // import MyComponent from "./update-object-state/myComponent.jsx";
-import MyComponent from "./update-arrays/myComponent.jsx";
+// import MyComponent from "./update-arrays/myComponent.jsx";
+
+import MyComponent from "./arrays-object-state/myComponent.jsx";
 
 function App() {
 
@@ -71,8 +73,11 @@ function App() {
 
         {/* Updater Function Objects */}
         {/*<MyComponent/>*/}
-        
+
         {/* Updating the arrays*/}
+        {/*<MyComponent/>*/}
+
+        {/* Updating the arrays of objects*/}
         <MyComponent/>
     </>)
 }
