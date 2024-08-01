@@ -12,12 +12,14 @@
 // import ColorPicker from "./colorpicker/colorPicker.jsx";
 
 
-// import MyComponent from "./updater-function/myComponent.jsx";
-// import MyComponent from "./update-object-state/myComponent.jsx";
-// import MyComponent from "./update-arrays/myComponent.jsx";
+// import MyComponent from "./updater-function/ComponentA.jsx";
+// import MyComponent from "./update-object-state/ComponentA.jsx";
+// import MyComponent from "./update-arrays/ComponentA.jsx";
 
-// import MyComponent from "./arrays-object-state/myComponent.jsx";
-import MyComponent from "./useEffect-react-hook/MyComponent.jsx";
+// import MyComponent from "./arrays-object-state/ComponentA.jsx";
+// import MyComponent from "./useEffect-react-hook/MyComponent.jsx";
+
+import ComponentA from "./use-context-react-hook/ComponentA.jsx";
 
 function App() {
 
@@ -81,8 +83,11 @@ function App() {
         {/* Updating the arrays of objects*/}
         {/*<MyComponent/>*/}
 
-        {/* useEffect Hooks*/}
-        <MyComponent/>
+        {/*useEffect Hooks*/}
+        {/*<MyComponent/>*/}
+
+        {/* useContext Hooks*/}
+        <ComponentA/>
     </>)
 }
 
