@@ -1,11 +1,11 @@
 import './App.css'
-import GsapTo from "./pages/GsapTo.jsx";
+import {GsapScrollTrigger} from "./pages/GsapScrollTrigger.jsx";
 
 function App() {
 
     return (
         <>
-            <GsapTo/>
+            <GsapScrollTrigger/>
         </>
     )
 }
